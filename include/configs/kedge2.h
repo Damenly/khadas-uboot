@@ -24,9 +24,6 @@
 
 #define CONFIG_SYS_MMC_ENV_DEV		0
 
-#undef CONFIG_BOOTCOMMAND
-#define CONFIG_BOOTCOMMAND  "run distro_bootcmd"
-
 #undef BOOTENV_BOOT_TARGETS
 #define BOOTENV_BOOT_TARGETS \
     "boot_targets=usb0 mmc1 mmc0 pxe dhcp\0"
